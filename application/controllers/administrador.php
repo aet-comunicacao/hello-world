@@ -38,6 +38,7 @@
 
 		//mostrando a lista de registros
 		public function index(){
+			echo 'aqui na index do login';
 			//selecionando os dados
 			$this->dados['administradores'] = null;
 			//padronizando o caminho da página
