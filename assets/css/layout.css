@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+h1.default,h2.default,h3.default,h4.default,h5.default,h6.default {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.alinha-texto-centro {
+	text-align: center !important;
+}
+.alinha-texto-direita {
+	text-align: right !important;
+}
+.alinha-texto-esquerda {
+	text-align: left !important;
+}
+.padding-top-bottom-10 {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.padding-zero {
+	padding: 0px !important;
+}
+.padding-top-5 {
+	padding-top: 5px !important;
+}
+.padding-top-10 {
+	padding-top: 10px !important;
+}
+.padding-top-20 {
+	padding-top: 20px !important;
+}
+.padding-top-30 {
+	padding-top: 30px !important;
+}
+.padding-bottom-5 {
+	padding-bottom: 5px !important;
+}
+.padding-bottom-10 {
+	padding-bottom: 10px !important;
+}
+.padding-bottom-20 {
+	padding-bottom: 20px !important;
+}
+.padding-bottom-30 {
+	padding-bottom: 30px !important;
+}
+
+.float-right {
+	float: right !important;
+}
+
+.gradiente-cinza-topo {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f5f5f5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f5f5f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f5f5f5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f5f5f5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5f5f5',GradientType=0 ); /* IE6-9 */
+}
+.cor-laranja {
+	background-color: #e97419;
+}
+.gradiente-laranja-topo {
+	background: #f7aa51; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #f7aa51 0%, #e5671d 21%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#f7aa51), color-stop(21%,#e5671d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #f7aa51 0%,#e5671d 21%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #f7aa51 0%,#e5671d 21%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #f7aa51 0%,#e5671d 21%); /* IE10+ */
+	background: linear-gradient(45deg,  #f7aa51 0%,#e5671d 21%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7aa51', endColorstr='#e5671d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.gradiente-amarelo-topo {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2d252+0,e3b12b+36 */
+	background: #f2d252; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2d252 0%, #e3b12b 36%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2d252), color-stop(36%,#e3b12b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f2d252 0%,#e3b12b 36%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f2d252 0%,#e3b12b 36%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f2d252 0%,#e3b12b 36%); /* IE10+ */
+	background: linear-gradient(to right,  #f2d252 0%,#e3b12b 36%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2d252', endColorstr='#e3b12b',GradientType=1 ); /* IE6-9 */
+}
+
+#topo {
+	position: relative;
+	/*padding: 10px 0px 10px 0px;*/
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-bottom: solid 1px #eaeaea;
+	z-index: 2;
+}
+#menu-topo {
+	position: relative;
+	background-color: #fafafa;
+	padding: 10px 0px !important;
+	box-shadow: 0px 0px 8px #888;
+	z-index: 1;
+}
+	/*#menu-topo ul {
+		position: relative;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		font-size: 14px !important;
+		font-weight: 700;
+		color: #4b4b4b;
+	}
+		#menu-topo ul li {
+			position: relative;
+			display: inline-block;
+			padding: 10px;
+			cursor: pointer;
+			background-color: transparent;
+		}
+		#menu-topo ul li:hover {
+			background-color: #fefefe;
+		}*/
+		#menu-topo a {
+			color: #4b4b4b !important;
+			font-weight: 700;
+		}
+		#menu-topo ul li > img {
+			position: relative;
+			top: -2px;
+			margin-right: 5px;
+		}
+
+/* WIZARD  STEPS #ffb483 #e97419 */ 
+.bs-wizard {margin-top: 15px; margin-bottom: 20px; border: 0px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #000; font-size: inherit; margin-bottom: 5px; font-weight: bold;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #70cb71; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%; cursor: default;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #49ad4a; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0; background-color: #FFFFFF !important;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #70cb71;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-stepnum {color: #999;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #eeeeee !important;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0; background-color: #eeeeee !important;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%; background-color: #FFFFFF !important;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%; background-color: #FFFFFF !important;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none;  background-color: #FFFFFF !important;}
+
+.bs-wizard > .bs-wizard-step.atual > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #f7be0f !important; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%; cursor: default;} 
+.bs-wizard > .bs-wizard-step.atual > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #ffd85f !important; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step.atual > .progress {background: #f7be0f !important;}
+/*END Form Wizard*/
+
+.label-black {
+  background-color: #000;
+}
